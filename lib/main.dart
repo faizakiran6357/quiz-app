@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_app/Detail%20_Screen.dart';
+import 'package:quiz_app/quiz_screen.dart';
 
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Quiz App',
-      home: const DetailScreen()
+      home: const QuizQuestionScreen(),
     );
   }
 }
