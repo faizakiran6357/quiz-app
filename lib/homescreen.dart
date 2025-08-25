@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:quiz_app/quiz_screen.dart';
-
+import 'Detail _Screen.dart';
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});
 
@@ -288,10 +288,7 @@ class DashboardScreen extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => QuizQuestionScreen(
-                          quizList: const [], // 👈 abhi khali bhej raha hoon
-                          startIndex: 0,
-                        ),
+                        builder: (context) =>  const DetailScreen(),
                       ),
                     );
                   },
