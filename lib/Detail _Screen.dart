@@ -1,5 +1,7 @@
-import 'package:flutter/material.dart';
+import 'dart:developer';
 
+import 'package:flutter/material.dart';
+import 'package:quiz_app/quiz_screen.dart';
 class DetailScreen extends StatelessWidget {
   const DetailScreen({super.key});
 
@@ -201,7 +203,6 @@ class DetailScreen extends StatelessWidget {
             ),
 
             SizedBox(height: 20),
-
             // Instructions
             Text(
               "Please read the text below carefully so you can understand it",
@@ -300,6 +301,13 @@ class DetailScreen extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {
+                    Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const QuizQuestionScreen(),
+                    ),
+                  );
+                  
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0xFF21BDCA),

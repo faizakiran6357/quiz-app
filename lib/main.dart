@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Quiz App',
-      home: const QuizQuestionScreen(),
+      home: const DetailScreen(),
     );
   }
 }
