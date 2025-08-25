@@ -43,8 +43,8 @@ class _QuizQuestionScreenState extends State<QuizQuestionScreen> {
               width: 80,
               height: 30,
               child: Image.asset(
-                "assests/datetime.png", 
-                fit: BoxFit.contain,
+                "assets/datetime.png", 
+                fit: BoxFit.contain, 
               ),
             ),
           ),

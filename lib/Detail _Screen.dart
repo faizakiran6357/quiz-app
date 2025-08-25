@@ -56,7 +56,7 @@ class DetailScreen extends StatelessWidget {
                                   ),
                               child: Center(
                               child: Image.asset(
-                             "assests/sport.png",
+                             "assets/sport.png",
                                height: 40,
                                width:  40,
                              ),
@@ -133,7 +133,7 @@ class DetailScreen extends StatelessWidget {
                ),
                 child: Center(
                     child: Image.asset(
-                          "assests/assignment.png",
+                          "assets/assignment.png",
                               height: 24,
                                width: 24,
                          ),
@@ -177,7 +177,7 @@ class DetailScreen extends StatelessWidget {
                ),
                 child: Center(
                     child: Image.asset(
-                          "assests/timer.png",
+                          "assets/timer.png",
                               height: 40,
                               width: 40,
                          ),
