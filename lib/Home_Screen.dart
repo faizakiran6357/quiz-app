@@ -485,6 +485,7 @@ class DashboardScreen extends StatelessWidget {
                 color: const Color(0xFFFFFFFF),
                 margin: const EdgeInsets.only(bottom: 12),
                 elevation: 1,
+                
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12)),
                 child: ListTile(
