@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:quiz_app/Detail%20_Screen.dart';
-import 'package:quiz_app/quiz_screen.dart';
 
+import 'package:flutter/material.dart';
+import 'package:quiz_app/homescreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,15 +8,12 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Quiz App',
-      home: const DetailScreen(),
+      home: const DashboardScreen(), // 🔹 Home screen open on start
     );
   }
 }
-
 
